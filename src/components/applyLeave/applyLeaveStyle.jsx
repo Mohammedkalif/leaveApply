@@ -1,0 +1,87 @@
+const applyLeaveStyle = {
+    container: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        flexDirection: "column",
+        height: "100vh",
+        background: "#0f172a",
+        color: "#fff",
+        padding: "0",
+        margin: "0",
+        overflow: "hidden",
+    },
+    card: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        gap: "15px",
+        padding: "25px",
+        background: "rgba(255, 255, 255, 0.1)",
+        borderRadius: "12px",
+        width: "100%",
+        maxWidth: "400px",
+        textAlign: "center",
+        boxShadow: "0px 4px 6px rgba(0,0,0,0.2)",
+    },
+    heading: {
+        fontSize: "26px",
+        fontWeight: "bold",
+        color: "#facc15",
+        marginBottom: "15px",
+    },
+    form: {
+        display: "flex",
+        flexDirection: "column",
+        width: "100%",
+    },
+    input: {
+        padding: "10px",
+        marginBottom: "15px",
+        fontSize: "16px",
+        borderRadius: "6px",
+        border: "1px solid #ccc",
+        background: "rgba(255, 255, 255, 0.2)",
+        color: "#fff",
+    },
+    button: {
+        padding: "10px",
+        fontSize: "16px",
+        borderRadius: "6px",
+        border: "none",
+        backgroundColor: "#3b82f6", 
+        color: "#fff",
+        cursor: "pointer",
+        transition: "0.3s",
+    },
+    buttonHover: {
+        backgroundColor: "#2563eb",
+    },
+
+    tableContainer: {
+        marginTop: "100px",
+        width: "90%",
+        maxWidth: "800px",
+        background: "rgba(255, 255, 255, 0.1)",
+        borderRadius: "8px",
+        padding: "15px",
+    },
+    table: {
+        width: "100%",
+        borderCollapse: "collapse",
+    },
+    th: {
+        backgroundColor: "#1e293b",
+        color: "#facc15",
+        padding: "12px",
+        borderBottom: "2px solid #facc15",
+    },
+    td: {
+        padding: "10px",
+        borderBottom: "1px solid rgba(255, 255, 255, 0.2)",
+        textAlign: "left",
+        color: "#fff",
+    },
+};
+
+export default applyLeaveStyle;

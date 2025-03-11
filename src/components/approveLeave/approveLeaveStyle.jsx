@@ -1,0 +1,63 @@
+const approveLeaveStyle = {
+    container: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        background: "#0f172a", 
+        color: "#fff",
+        flexDirection: "column",
+        padding: "20px",
+    },
+    card: {
+        display: "flex",
+        flexDirection: "column",
+        gap: "15px",
+        padding: "20px",
+        background: "rgba(255, 255, 255, 0.1)",
+        borderRadius: "12px",
+        width: "100%",
+        maxWidth: "500px",
+        textAlign: "left",
+        boxShadow: "0px 4px 6px rgba(0,0,0,0.2)",
+    },
+    heading: {
+        textAlign: "center",
+        fontSize: "26px",
+        marginBottom: "15px",
+        fontWeight: "bold",
+        color: "#facc15",
+    },
+    list: {
+        listStyle: "none",
+        padding: "0",
+        width: "100%",
+    },
+    listItem: {
+        padding: "15px",
+        borderRadius: "8px",
+        background: "rgba(255, 255, 255, 0.2)",
+        marginBottom: "10px",
+        boxShadow: "0px 2px 4px rgba(0,0,0,0.1)",
+    },
+    approveButton: {
+        padding: "8px 12px",
+        fontSize: "14px",
+        borderRadius: "4px",
+        border: "none",
+        backgroundColor: "#16a34a",
+        color: "#fff",
+        cursor: "pointer",
+        marginRight: "10px",
+    },
+    rejectButton: {
+        padding: "8px 12px",
+        fontSize: "14px",
+        borderRadius: "4px",
+        border: "none",
+        backgroundColor: "#dc2626",
+        color: "#fff",
+        cursor: "pointer",
+    },
+};
+
+export default approveLeaveStyle;
